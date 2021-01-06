@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-01-06T05:37:48.328Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="1DoVgCwCU_OuuWNpOtla" version="14.1.2" type="github">
+<mxfile host="app.diagrams.net" modified="2021-01-06T06:01:48.463Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="fCwtTsZNj38ca3SFbgYU" version="14.1.2" type="github">
   <diagram id="tc3lEOw6681RFRZdU92T" name="Page-1">
     <mxGraphModel dx="1185" dy="588" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -7,19 +7,19 @@
         <mxCell id="nCcowX3dBiI-AIc2eQVW-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.52;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="nCcowX3dBiI-AIc2eQVW-1" target="nCcowX3dBiI-AIc2eQVW-2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="nCcowX3dBiI-AIc2eQVW-1" value="礼物接收者人物刻画分析" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="nCcowX3dBiI-AIc2eQVW-1" value="&lt;font style=&quot;vertical-align: inherit&quot;&gt;&lt;font style=&quot;vertical-align: inherit&quot;&gt;礼物接收者人物形象刻画分析&lt;/font&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="345" y="110" width="200" height="40" as="geometry" />
         </mxCell>
         <mxCell id="nCcowX3dBiI-AIc2eQVW-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="nCcowX3dBiI-AIc2eQVW-2" target="nCcowX3dBiI-AIc2eQVW-3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="nCcowX3dBiI-AIc2eQVW-2" value="发放礼物接收者形象因子比重问卷" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="nCcowX3dBiI-AIc2eQVW-2" value="&lt;font style=&quot;vertical-align: inherit&quot;&gt;&lt;font style=&quot;vertical-align: inherit&quot;&gt;发放礼物接收者形象因子比重问卷&lt;/font&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="347.5" y="180" width="187.5" height="30" as="geometry" />
         </mxCell>
         <mxCell id="nCcowX3dBiI-AIc2eQVW-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.484;entryY=-0.05;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="nCcowX3dBiI-AIc2eQVW-3" target="nCcowX3dBiI-AIc2eQVW-4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="nCcowX3dBiI-AIc2eQVW-3" value="回收调查问卷统计因素比重" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="nCcowX3dBiI-AIc2eQVW-3" value="&lt;font style=&quot;vertical-align: inherit&quot;&gt;&lt;font style=&quot;vertical-align: inherit&quot;&gt;回收调查问卷并统计因子比重&lt;/font&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="356.25" y="240" width="170" height="40" as="geometry" />
         </mxCell>
         <mxCell id="nCcowX3dBiI-AIc2eQVW-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="nCcowX3dBiI-AIc2eQVW-4" target="nCcowX3dBiI-AIc2eQVW-5">
@@ -31,7 +31,7 @@
         <mxCell id="nCcowX3dBiI-AIc2eQVW-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="nCcowX3dBiI-AIc2eQVW-5" target="nCcowX3dBiI-AIc2eQVW-6">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="nCcowX3dBiI-AIc2eQVW-5" value="算法实现测试部署到云端" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="nCcowX3dBiI-AIc2eQVW-5" value="&lt;font style=&quot;vertical-align: inherit&quot;&gt;&lt;font style=&quot;vertical-align: inherit&quot;&gt;算法实现测试并部署到云端&lt;/font&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="340" y="380" width="210" height="35" as="geometry" />
         </mxCell>
         <mxCell id="nCcowX3dBiI-AIc2eQVW-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="nCcowX3dBiI-AIc2eQVW-6" target="nCcowX3dBiI-AIc2eQVW-7">
