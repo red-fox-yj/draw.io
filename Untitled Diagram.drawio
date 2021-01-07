@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-01-07T07:12:40.859Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36" etag="PLALSBOtAA7tYJ03pBML" version="14.1.8" type="github">
+<mxfile host="app.diagrams.net" modified="2021-01-07T07:21:54.177Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36" etag="Pgstp4YuYVxexeShx08v" version="14.1.8" type="github">
   <diagram id="ZdDx3ysgD8cOzduNGS55" name="Page-1">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -12,12 +12,15 @@
         </mxCell>
         <mxCell id="x1rPeT8geEdnVnCUjBLf-9" value="" style="shape=flexArrow;endArrow=classic;html=1;" edge="1" parent="x1rPeT8geEdnVnCUjBLf-24">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="124.5" y="40" as="sourcePoint" />
-            <mxPoint x="124.5" y="90" as="targetPoint" />
+            <mxPoint x="100" y="40" as="sourcePoint" />
+            <mxPoint y="100" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="40" y="50" />
+            </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="x1rPeT8geEdnVnCUjBLf-25" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="250" y="150" width="250" height="90" as="geometry" />
+          <mxGeometry x="100" y="170" width="250" height="90" as="geometry" />
         </mxCell>
         <mxCell id="x1rPeT8geEdnVnCUjBLf-26" value="&lt;b&gt;&lt;font style=&quot;font-size: 15px&quot; face=&quot;Comic Sans MS&quot;&gt;&lt;font style=&quot;vertical-align: inherit&quot;&gt;&lt;font style=&quot;vertical-align: inherit&quot;&gt;发放调查问卷，研究人物形象与礼品的对应关系&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="x1rPeT8geEdnVnCUjBLf-25">
           <mxGeometry x="30" y="-10" width="190" height="40" as="geometry" />
@@ -28,20 +31,8 @@
             <mxPoint x="124.5" y="90" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="x1rPeT8geEdnVnCUjBLf-28" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="620" y="180" width="250" height="90" as="geometry" />
-        </mxCell>
-        <mxCell id="x1rPeT8geEdnVnCUjBLf-29" value="&lt;b&gt;&lt;font style=&quot;font-size: 15px&quot; face=&quot;Comic Sans MS&quot;&gt;调研电商平台，总结出礼品类别清单&lt;/font&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="x1rPeT8geEdnVnCUjBLf-28">
-          <mxGeometry width="250" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="x1rPeT8geEdnVnCUjBLf-30" value="" style="shape=flexArrow;endArrow=classic;html=1;" edge="1" parent="x1rPeT8geEdnVnCUjBLf-28">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="124.5" y="40" as="sourcePoint" />
-            <mxPoint x="124.5" y="90" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="x1rPeT8geEdnVnCUjBLf-31" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="245" y="380" width="260" height="90" as="geometry" />
+          <mxGeometry x="240" y="430" width="260" height="90" as="geometry" />
         </mxCell>
         <mxCell id="x1rPeT8geEdnVnCUjBLf-33" value="" style="shape=flexArrow;endArrow=classic;html=1;" edge="1" parent="x1rPeT8geEdnVnCUjBLf-31">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -53,10 +44,10 @@
           <mxGeometry x="40" y="-10" width="180" height="40" as="geometry" />
         </mxCell>
         <mxCell id="x1rPeT8geEdnVnCUjBLf-34" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="250" y="600" width="250" height="90" as="geometry" />
+          <mxGeometry x="245" y="650" width="250" height="90" as="geometry" />
         </mxCell>
         <mxCell id="x1rPeT8geEdnVnCUjBLf-35" value="&lt;b&gt;&lt;font style=&quot;font-size: 15px&quot; face=&quot;Comic Sans MS&quot;&gt;&lt;font style=&quot;vertical-align: inherit&quot;&gt;&lt;font style=&quot;vertical-align: inherit&quot;&gt;&lt;font style=&quot;vertical-align: inherit&quot;&gt;&lt;font style=&quot;vertical-align: inherit&quot;&gt;链接客户端和服务端&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="x1rPeT8geEdnVnCUjBLf-34">
-          <mxGeometry width="250" height="30" as="geometry" />
+          <mxGeometry x="25" width="200" height="30" as="geometry" />
         </mxCell>
         <mxCell id="x1rPeT8geEdnVnCUjBLf-36" value="" style="shape=flexArrow;endArrow=classic;html=1;" edge="1" parent="x1rPeT8geEdnVnCUjBLf-34">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -64,20 +55,8 @@
             <mxPoint x="124.5" y="90" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="x1rPeT8geEdnVnCUjBLf-37" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="600" y="360" width="250" height="90" as="geometry" />
-        </mxCell>
-        <mxCell id="x1rPeT8geEdnVnCUjBLf-38" value="&lt;b&gt;&lt;font style=&quot;font-size: 15px&quot; face=&quot;Comic Sans MS&quot;&gt;调研电商平台，总结出礼品类别清单&lt;/font&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="x1rPeT8geEdnVnCUjBLf-37">
-          <mxGeometry width="250" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="x1rPeT8geEdnVnCUjBLf-39" value="" style="shape=flexArrow;endArrow=classic;html=1;" edge="1" parent="x1rPeT8geEdnVnCUjBLf-37">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="124.5" y="40" as="sourcePoint" />
-            <mxPoint x="124.5" y="90" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="x1rPeT8geEdnVnCUjBLf-40" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="250" y="710" width="250" height="90" as="geometry" />
+          <mxGeometry x="245" y="760" width="250" height="90" as="geometry" />
         </mxCell>
         <mxCell id="x1rPeT8geEdnVnCUjBLf-42" value="" style="shape=flexArrow;endArrow=classic;html=1;" edge="1" parent="x1rPeT8geEdnVnCUjBLf-40">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -89,7 +68,7 @@
           <mxGeometry x="30" y="-10" width="190" height="40" as="geometry" />
         </mxCell>
         <mxCell id="x1rPeT8geEdnVnCUjBLf-46" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="250" y="495" width="250" height="90" as="geometry" />
+          <mxGeometry x="245" y="545" width="250" height="90" as="geometry" />
         </mxCell>
         <mxCell id="x1rPeT8geEdnVnCUjBLf-48" value="" style="shape=flexArrow;endArrow=classic;html=1;" edge="1" parent="x1rPeT8geEdnVnCUjBLf-46">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -101,19 +80,46 @@
           <mxGeometry x="250" y="260" width="270" height="110" as="geometry" />
         </mxCell>
         <mxCell id="x1rPeT8geEdnVnCUjBLf-43" value="" style="group" vertex="1" connectable="0" parent="x1rPeT8geEdnVnCUjBLf-51">
-          <mxGeometry y="10" width="250" height="90" as="geometry" />
+          <mxGeometry x="-150" y="30" width="250" height="90" as="geometry" />
         </mxCell>
         <mxCell id="x1rPeT8geEdnVnCUjBLf-45" value="" style="shape=flexArrow;endArrow=classic;html=1;" edge="1" parent="x1rPeT8geEdnVnCUjBLf-43">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="124.5" y="40" as="sourcePoint" />
-            <mxPoint x="124.5" y="90" as="targetPoint" />
+            <mxPoint x="230" y="120" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="125" y="70" />
+            </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="x1rPeT8geEdnVnCUjBLf-44" value="&lt;div&gt;&lt;font face=&quot;Comic Sans MS&quot;&gt;&lt;span style=&quot;font-size: 15px&quot;&gt;&lt;b&gt;&lt;font style=&quot;vertical-align: inherit&quot;&gt;&lt;font style=&quot;vertical-align: inherit&quot;&gt;借助深度学习，提取送&lt;/font&gt;&lt;/font&gt;&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;&lt;b style=&quot;font-size: 15px ; font-family: &amp;#34;comic sans ms&amp;#34;&quot;&gt;&lt;font style=&quot;vertical-align: inherit&quot;&gt;&lt;font style=&quot;vertical-align: inherit&quot;&gt;&lt;font style=&quot;vertical-align: inherit&quot;&gt;&lt;font style=&quot;vertical-align: inherit&quot;&gt;礼对象与礼物的特征，建立个性化礼物推荐模型&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="x1rPeT8geEdnVnCUjBLf-51">
-          <mxGeometry x="5" y="-10" width="245" height="50" as="geometry" />
+          <mxGeometry x="-145" y="10" width="245" height="50" as="geometry" />
         </mxCell>
         <mxCell id="x1rPeT8geEdnVnCUjBLf-47" value="&lt;font face=&quot;Comic Sans MS&quot;&gt;&lt;span style=&quot;font-size: 15px&quot;&gt;&lt;b&gt;&lt;font style=&quot;vertical-align: inherit&quot;&gt;&lt;font style=&quot;vertical-align: inherit&quot;&gt;就借助FastAPI开发python Web端，链接mysql完成服务端逻辑&lt;/font&gt;&lt;/font&gt;&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="250" y="480" width="250" height="50" as="geometry" />
+          <mxGeometry x="245" y="530" width="250" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="x1rPeT8geEdnVnCUjBLf-55" value="" style="shape=flexArrow;endArrow=classic;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="80" as="sourcePoint" />
+            <mxPoint x="510" y="180" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="460" y="90" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="x1rPeT8geEdnVnCUjBLf-56" value="&lt;b&gt;&lt;font style=&quot;font-size: 15px&quot; face=&quot;Comic Sans MS&quot;&gt;&lt;font style=&quot;vertical-align: inherit&quot;&gt;&lt;font style=&quot;vertical-align: inherit&quot;&gt;&lt;font style=&quot;vertical-align: inherit&quot;&gt;&lt;font style=&quot;vertical-align: inherit&quot;&gt;调研相关文献资料，实现基于送礼记录的礼品推荐算法&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="414" y="190" width="190" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="x1rPeT8geEdnVnCUjBLf-57" value="" style="shape=flexArrow;endArrow=classic;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="509" y="250" as="sourcePoint" />
+            <mxPoint x="420" y="410" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="509" y="320" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="x1rPeT8geEdnVnCUjBLf-60" value="&lt;font face=&quot;Comic Sans MS&quot;&gt;&lt;span style=&quot;font-size: 15px&quot;&gt;&lt;b&gt;系统测评与改进&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="295" y="860" width="150" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
