@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-04-06T08:00:18.768Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36" etag="08g3HbQVfHSjClJReeBS" version="14.2.2" type="github">
+<mxfile host="app.diagrams.net" modified="2021-04-06T09:06:22.423Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36" etag="LZfkRhAVPv3F37Hgjdyf" version="14.2.2" type="github">
   <diagram id="EJOTbTb1qs1ZfEdKJLTG" name="Page-1">
     <mxGraphModel dx="1422" dy="706" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -7,40 +7,13 @@
         <mxCell id="54FsRCbb-_yAfenNY3Xb-1" value="user" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
           <mxGeometry x="170" y="200" width="80" height="160" as="geometry" />
         </mxCell>
-        <mxCell id="54FsRCbb-_yAfenNY3Xb-2" value="&lt;font style=&quot;font-size: 21px&quot;&gt;&lt;b&gt;注册&lt;/b&gt;&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
-          <mxGeometry x="440" y="80" width="140" height="70" as="geometry" />
-        </mxCell>
-        <mxCell id="54FsRCbb-_yAfenNY3Xb-5" value="&lt;font style=&quot;font-size: 21px&quot;&gt;&lt;b style=&quot;font-size: 19px&quot;&gt;送礼记录查询&lt;/b&gt;&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
-          <mxGeometry x="440" y="290" width="140" height="70" as="geometry" />
-        </mxCell>
-        <mxCell id="54FsRCbb-_yAfenNY3Xb-6" value="&lt;font style=&quot;font-size: 21px&quot;&gt;&lt;b&gt;登录&lt;/b&gt;&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
-          <mxGeometry x="440" y="190" width="140" height="70" as="geometry" />
-        </mxCell>
-        <mxCell id="54FsRCbb-_yAfenNY3Xb-9" value="" style="shape=flexArrow;endArrow=classic;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="54FsRCbb-_yAfenNY3Xb-2">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="270" y="260" as="sourcePoint" />
-            <mxPoint x="430" y="130" as="targetPoint" />
-          </mxGeometry>
+        <mxCell id="54FsRCbb-_yAfenNY3Xb-6" value="&lt;font style=&quot;font-size: 21px&quot;&gt;&lt;b&gt;模型更新&lt;/b&gt;&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="450" y="245" width="140" height="70" as="geometry" />
         </mxCell>
         <mxCell id="54FsRCbb-_yAfenNY3Xb-10" value="" style="shape=flexArrow;endArrow=classic;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="54FsRCbb-_yAfenNY3Xb-6">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="270" y="280" as="sourcePoint" />
             <mxPoint x="440" y="260" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="54FsRCbb-_yAfenNY3Xb-11" value="" style="shape=flexArrow;endArrow=classic;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="54FsRCbb-_yAfenNY3Xb-5">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="270" y="300" as="sourcePoint" />
-            <mxPoint x="440" y="260" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="54FsRCbb-_yAfenNY3Xb-12" value="&lt;font style=&quot;font-size: 21px&quot;&gt;&lt;b&gt;忘记密码&lt;/b&gt;&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
-          <mxGeometry x="440" y="390" width="140" height="70" as="geometry" />
-        </mxCell>
-        <mxCell id="54FsRCbb-_yAfenNY3Xb-13" value="" style="shape=flexArrow;endArrow=classic;html=1;entryX=0.014;entryY=0.357;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="54FsRCbb-_yAfenNY3Xb-12">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="270" y="320" as="sourcePoint" />
-            <mxPoint x="440" y="360" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
