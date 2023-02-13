@@ -1,10 +1,10 @@
-<mxfile host="app.diagrams.net" modified="2023-02-13T13:51:18.531Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="hQDJBQv4yMqHapKkni4D" version="20.8.20" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-13T14:51:41.579Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="pS43Kw4xRluTb0flSC9U" version="20.8.20" type="github">
   <diagram name="第 1 页" id="jBALGVX91TinAHGSU4XN">
-    <mxGraphModel dx="954" dy="616" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1735" dy="1120" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="35czVd8B8zuA92bIW4XF-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="35czVd8B8zuA92bIW4XF-1" target="35czVd8B8zuA92bIW4XF-2">
+        <mxCell id="35czVd8B8zuA92bIW4XF-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=1;entryDx=0;entryDy=0;shape=flexArrow;" edge="1" parent="1" source="35czVd8B8zuA92bIW4XF-1" target="35czVd8B8zuA92bIW4XF-2">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="280" y="400" as="targetPoint" />
             <Array as="points">
@@ -19,53 +19,180 @@
         <mxCell id="35czVd8B8zuA92bIW4XF-2" value="服务端" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
           <mxGeometry x="580" y="280" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="35czVd8B8zuA92bIW4XF-3" value="公钥，私钥" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="560" y="110" width="120" height="80" as="geometry" />
-        </mxCell>
         <mxCell id="35czVd8B8zuA92bIW4XF-5" value="" style="shape=doubleArrow;whiteSpace=wrap;html=1;rotation=90;" vertex="1" parent="1">
           <mxGeometry x="585" y="215" width="70" height="40" as="geometry" />
         </mxCell>
         <mxCell id="35czVd8B8zuA92bIW4XF-6" value="每小时生成一对新的密钥对" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="535" y="215" width="170" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="35czVd8B8zuA92bIW4XF-7" value="redis" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="595" y="80" width="50" height="30" as="geometry" />
-        </mxCell>
         <mxCell id="35czVd8B8zuA92bIW4XF-8" value="" style="shape=actor;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="50" y="290" width="40" height="60" as="geometry" />
+          <mxGeometry x="30" y="290" width="40" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="35czVd8B8zuA92bIW4XF-9" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.9;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="35czVd8B8zuA92bIW4XF-8" target="35czVd8B8zuA92bIW4XF-1">
+        <mxCell id="35czVd8B8zuA92bIW4XF-9" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.9;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;shape=flexArrow;" edge="1" parent="1" source="35czVd8B8zuA92bIW4XF-8" target="35czVd8B8zuA92bIW4XF-1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="340" y="340" as="sourcePoint" />
             <mxPoint x="390" y="290" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="35czVd8B8zuA92bIW4XF-10" value="1、输入用户密码，&lt;br&gt;点击登录" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="35czVd8B8zuA92bIW4XF-10" value="1、输入用户密码，&lt;br&gt;点击注册" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="80" y="280" width="130" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="35czVd8B8zuA92bIW4XF-11" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="35czVd8B8zuA92bIW4XF-1" target="35czVd8B8zuA92bIW4XF-2">
+        <mxCell id="35czVd8B8zuA92bIW4XF-11" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;shape=flexArrow;" edge="1" parent="1" source="35czVd8B8zuA92bIW4XF-1" target="35czVd8B8zuA92bIW4XF-2">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="340" y="340" as="sourcePoint" />
             <mxPoint x="390" y="290" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="35czVd8B8zuA92bIW4XF-12" value="2、进入登录页面时首先获取服务器的公钥" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="35czVd8B8zuA92bIW4XF-12" value="2、进入注册页面时首先获取服务器的公钥" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="289" y="250" width="250" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="35czVd8B8zuA92bIW4XF-15" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="35czVd8B8zuA92bIW4XF-2" target="35czVd8B8zuA92bIW4XF-1">
+        <mxCell id="35czVd8B8zuA92bIW4XF-15" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;shape=flexArrow;" edge="1" parent="1" source="35czVd8B8zuA92bIW4XF-2" target="35czVd8B8zuA92bIW4XF-1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="340" y="340" as="sourcePoint" />
             <mxPoint x="390" y="290" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="35czVd8B8zuA92bIW4XF-16" value="3、返回服务器公钥" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="325" y="295" width="130" height="30" as="geometry" />
+          <mxGeometry x="350" y="290" width="130" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="35czVd8B8zuA92bIW4XF-20" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="770" y="290" width="120" height="60" as="geometry" />
+        <mxCell id="35czVd8B8zuA92bIW4XF-21" value="4&lt;br&gt;公钥加密用户名密码得到密文；&lt;br&gt;携带密文请求注册" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="330" y="360" width="190" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="35czVd8B8zuA92bIW4XF-21" value="4、携带用户名以及公钥加密后的用户密码请求登录" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="280" y="330" width="290" height="30" as="geometry" />
+        <mxCell id="35czVd8B8zuA92bIW4XF-23" value="数据库" style="shape=datastore;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="580" y="505" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="35czVd8B8zuA92bIW4XF-29" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;shape=flexArrow;" edge="1" parent="1" source="35czVd8B8zuA92bIW4XF-2" target="35czVd8B8zuA92bIW4XF-23">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="460" y="390" as="sourcePoint" />
+            <mxPoint x="660" y="500" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="35czVd8B8zuA92bIW4XF-30" value="5&lt;br&gt;&lt;br&gt;私钥解密得到明文密码A和用户名；&lt;br&gt;生成N位随机盐值B；&lt;br&gt;将随机盐值拼接到明文密码得到串C；&lt;br&gt;MD5加密拼接串得到串D；&lt;br&gt;在MD5加密串首部拼接上盐值得到串E；&lt;br&gt;将用户名和串E保存到数据库" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="630" y="360" width="240" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="35czVd8B8zuA92bIW4XF-33" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;shape=flexArrow;" edge="1" parent="1" source="35czVd8B8zuA92bIW4XF-2" target="35czVd8B8zuA92bIW4XF-40">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="460" y="420" as="sourcePoint" />
+            <mxPoint x="680" y="150" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="780" y="320" />
+              <mxPoint x="780" y="150" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="35czVd8B8zuA92bIW4XF-34" value="6&lt;br&gt;根据时间戳生成cookies串；&lt;br&gt;[key:cookies串;value:null]=&amp;gt;redis" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="790" y="195" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="35czVd8B8zuA92bIW4XF-38" value="7&lt;br&gt;返回cookies给客户端；&lt;br&gt;客户端刷新重定向" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="350" y="445" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="35czVd8B8zuA92bIW4XF-39" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=1;entryDx=0;entryDy=0;shape=flexArrow;" edge="1" parent="1" source="35czVd8B8zuA92bIW4XF-2" target="35czVd8B8zuA92bIW4XF-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="490" y="390" as="sourcePoint" />
+            <mxPoint x="540" y="340" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="580" y="450" />
+              <mxPoint x="280" y="450" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="35czVd8B8zuA92bIW4XF-40" value="redis" style="shape=datastore;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="580" y="110" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="35czVd8B8zuA92bIW4XF-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=1;entryDx=0;entryDy=0;shape=flexArrow;" edge="1" parent="1" source="35czVd8B8zuA92bIW4XF-64" target="35czVd8B8zuA92bIW4XF-65">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="280" y="950" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="420" y="910" />
+              <mxPoint x="420" y="910" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="35czVd8B8zuA92bIW4XF-64" value="客户端" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="200" y="830" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="35czVd8B8zuA92bIW4XF-65" value="服务端" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="580" y="830" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="35czVd8B8zuA92bIW4XF-66" value="" style="shape=doubleArrow;whiteSpace=wrap;html=1;rotation=90;" vertex="1" parent="1">
+          <mxGeometry x="585" y="765" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="35czVd8B8zuA92bIW4XF-67" value="每小时生成一对新的密钥对" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="535" y="765" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="35czVd8B8zuA92bIW4XF-68" value="" style="shape=actor;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="840" width="40" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="35czVd8B8zuA92bIW4XF-69" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.9;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;shape=flexArrow;" edge="1" parent="1" source="35czVd8B8zuA92bIW4XF-68" target="35czVd8B8zuA92bIW4XF-64">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="340" y="890" as="sourcePoint" />
+            <mxPoint x="390" y="840" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="35czVd8B8zuA92bIW4XF-70" value="1、输入用户密码，&lt;br&gt;点击登录" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="80" y="830" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="35czVd8B8zuA92bIW4XF-71" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;shape=flexArrow;" edge="1" parent="1" source="35czVd8B8zuA92bIW4XF-64" target="35czVd8B8zuA92bIW4XF-65">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="340" y="890" as="sourcePoint" />
+            <mxPoint x="390" y="840" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="35czVd8B8zuA92bIW4XF-72" value="2、进入登录页面时首先获取服务器的公钥" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="289" y="800" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="35czVd8B8zuA92bIW4XF-73" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;shape=flexArrow;" edge="1" parent="1" source="35czVd8B8zuA92bIW4XF-65" target="35czVd8B8zuA92bIW4XF-64">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="340" y="890" as="sourcePoint" />
+            <mxPoint x="390" y="840" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="35czVd8B8zuA92bIW4XF-74" value="3、返回服务器公钥" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="350" y="840" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="35czVd8B8zuA92bIW4XF-75" value="4&lt;br&gt;公钥加密用户名密码得到密文；&lt;br&gt;携带密文请求登录" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="330" y="910" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="35czVd8B8zuA92bIW4XF-76" value="数据库" style="shape=datastore;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="580" y="1055" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="35czVd8B8zuA92bIW4XF-77" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;shape=flexArrow;" edge="1" parent="1" source="35czVd8B8zuA92bIW4XF-65" target="35czVd8B8zuA92bIW4XF-76">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="460" y="940" as="sourcePoint" />
+            <mxPoint x="660" y="1050" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="35czVd8B8zuA92bIW4XF-78" value="5&lt;br&gt;&lt;br&gt;私钥解密得到明文密码A和用户名；&lt;br&gt;根据用户名查询数据库加密串B；&lt;br&gt;取前N位作为盐值C；&lt;br&gt;将盐值C拼接到明文密码首部得到串D；&lt;br&gt;MD5加密串D得到串E；&lt;br&gt;C拼接到E首部得到串F；" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="635" y="910" width="230" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="35czVd8B8zuA92bIW4XF-79" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;shape=flexArrow;" edge="1" parent="1" source="35czVd8B8zuA92bIW4XF-65" target="35czVd8B8zuA92bIW4XF-83">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="460" y="970" as="sourcePoint" />
+            <mxPoint x="680" y="700" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="780" y="870" />
+              <mxPoint x="780" y="700" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="35czVd8B8zuA92bIW4XF-80" value="6&lt;br&gt;B=F登录成功：&lt;br&gt;根据时间戳生成cookies串；&lt;br&gt;[key:cookies串;value:null]=&amp;gt;redis" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="790" y="740" width="200" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="35czVd8B8zuA92bIW4XF-81" value="7&lt;br&gt;B=F登录成功：&lt;br&gt;返回cookies给客户端；&lt;br&gt;客户端刷新重定向；&lt;br&gt;B!=F登录失败" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="349" y="1000" width="150" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="35czVd8B8zuA92bIW4XF-82" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=1;entryDx=0;entryDy=0;shape=flexArrow;" edge="1" parent="1" source="35czVd8B8zuA92bIW4XF-65" target="35czVd8B8zuA92bIW4XF-64">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="490" y="940" as="sourcePoint" />
+            <mxPoint x="540" y="890" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="580" y="1000" />
+              <mxPoint x="280" y="1000" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="35czVd8B8zuA92bIW4XF-83" value="redis" style="shape=datastore;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="580" y="660" width="80" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
