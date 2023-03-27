@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-27T08:01:41.812Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="cppMFwBWtTTHEKiMp6F8" version="20.8.20" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-27T08:03:51.889Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="vSMKHwTwuEt9T0QRRDgc" version="20.8.20" type="github">
   <diagram name="第 1 页" id="vIqXAc0gd95hArHaUAIa">
     <mxGraphModel dx="1781" dy="616" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -32,31 +32,31 @@
         <mxCell id="ji_brwV9mI_R7om9VfdI-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ji_brwV9mI_R7om9VfdI-9" target="ji_brwV9mI_R7om9VfdI-14">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ji_brwV9mI_R7om9VfdI-9" value="构造redis队列blogViewsQueue&lt;br&gt;将博客ID加入队列" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="ji_brwV9mI_R7om9VfdI-9" value="构造redis队列&lt;font color=&quot;#ff0000&quot;&gt;blogViewsQueue&lt;/font&gt;&lt;br&gt;将博客ID加入队列" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry y="380" width="190" height="40" as="geometry" />
         </mxCell>
         <mxCell id="ji_brwV9mI_R7om9VfdI-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.529;entryY=-0.012;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="ji_brwV9mI_R7om9VfdI-10" target="ji_brwV9mI_R7om9VfdI-15">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ji_brwV9mI_R7om9VfdI-10" value="设置定时器（每秒执行）定期从blogViewsQueue里面取出博客ID，&lt;br&gt;取出之后查看redis里面是否已经有以博客ID为key的缓存，如果有则value+1&lt;br&gt;否则设置缓存key：博客ID，value：1并将博客ID加入blogViewsSyncQueue队列" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="ji_brwV9mI_R7om9VfdI-10" value="设置定时器（每秒执行）定期从&lt;font color=&quot;#ff0000&quot;&gt;blogViewsQueue&lt;/font&gt;里面取出博客ID，&lt;br&gt;取出之后查看redis里面是否已经有以博客ID为key的缓存，如果有则value+1&lt;br&gt;否则设置缓存key：博客ID，value：1并将博客ID加入&lt;font color=&quot;#0000ff&quot;&gt;blogViewsSyncQueue&lt;/font&gt;队列" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="-120" y="540" width="450" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ji_brwV9mI_R7om9VfdI-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.478;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="ji_brwV9mI_R7om9VfdI-14" target="ji_brwV9mI_R7om9VfdI-10">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ji_brwV9mI_R7om9VfdI-14" value="构造redis队列blogVewsSyncQueue" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="ji_brwV9mI_R7om9VfdI-14" value="构造redis队列&lt;font color=&quot;#0000ff&quot;&gt;blogVewsSyncQueue&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="-10" y="465" width="210" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="ji_brwV9mI_R7om9VfdI-15" value="每日凌晨0点从blogViewsSyncQueue中取出博客ID不妨设为K，&lt;br&gt;在redis寻找key为K的键值对，将value持久化到博客表" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="ji_brwV9mI_R7om9VfdI-15" value="每日凌晨0点从&lt;font color=&quot;#0000ff&quot;&gt;blogViewsSyncQueue&lt;/font&gt;中取出博客ID不妨设为K，&lt;br&gt;在redis寻找key为K的键值对，将value持久化到博客表" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="-85" y="630" width="360" height="40" as="geometry" />
         </mxCell>
         <mxCell id="ji_brwV9mI_R7om9VfdI-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.536;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="ji_brwV9mI_R7om9VfdI-17" target="ji_brwV9mI_R7om9VfdI-26">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ji_brwV9mI_R7om9VfdI-17" value="构造redis队列blogBrowseQueue&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;将对象{IP，设备标识，博客ID，时间}&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;加入队列" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="ji_brwV9mI_R7om9VfdI-17" value="构造redis队列&lt;font color=&quot;#ff8000&quot;&gt;blogBrowseQueue&lt;/font&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;将对象{IP，设备标识，博客ID，时间}&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;加入队列" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="400" y="370" width="220" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="ji_brwV9mI_R7om9VfdI-26" value="每日凌晨1从blogBrowseQueue队列取出所有任务&lt;br&gt;持久化到博客浏览数据表" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="ji_brwV9mI_R7om9VfdI-26" value="每日凌晨1从&lt;font color=&quot;#ff8000&quot;&gt;blogBrowseQueue&lt;/font&gt;队列取出所有任务&lt;br&gt;持久化到博客浏览数据表" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="360" y="460" width="280" height="40" as="geometry" />
         </mxCell>
       </root>
