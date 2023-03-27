@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-27T07:48:53.149Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="bz4WuD198ZF10SvZDr1j" version="20.8.20" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-27T08:01:41.812Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="cppMFwBWtTTHEKiMp6F8" version="20.8.20" type="github">
   <diagram name="第 1 页" id="vIqXAc0gd95hArHaUAIa">
     <mxGraphModel dx="1781" dy="616" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -20,8 +20,8 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="ji_brwV9mI_R7om9VfdI-4" value="调用服务端博客浏览接口" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="190" y="290" width="160" height="30" as="geometry" />
+        <mxCell id="ji_brwV9mI_R7om9VfdI-4" value="调用博客浏览接口" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="210" y="290" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="ji_brwV9mI_R7om9VfdI-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ji_brwV9mI_R7om9VfdI-7" target="ji_brwV9mI_R7om9VfdI-4">
           <mxGeometry relative="1" as="geometry" />
